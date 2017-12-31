@@ -20,6 +20,12 @@ Vue.use(Buefy);
 
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-// const app = new Vue({
-//     el: '#app'
-// });
+const app = new Vue({
+    el: '#app'
+});
+
+$(document).ready(function(){
+    $('button.dropdown').hover(function(e){
+        $(this).toggleClass('is-open');
+    });
+});
