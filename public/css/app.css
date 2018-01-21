@@ -19860,6 +19860,7 @@ label.panel-block:hover {
 }
 
 .section-one {
+  position: relative;
   min-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19871,10 +19872,16 @@ label.panel-block:hover {
 
 .section-one .left {
   width: 70%;
+  position: absolute;
+  z-index: 2;
+  left: 0;
 }
 
 .section-one .right {
   width: 30%;
+  position: absolute;
+  z-index: 2;
+  left: 70%;
 }
 
 .section-one .right img {
@@ -19882,9 +19889,11 @@ label.panel-block:hover {
   width: 200px;
 }
 
-#particles-js {
-  height: 600px;
-  width: 600px;
-  background: #f00;
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px !important;
+  width: 100% !important;
 }
 

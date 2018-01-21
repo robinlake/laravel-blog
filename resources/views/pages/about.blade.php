@@ -1,24 +1,7 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>About</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Particles -->
-        <script src={{asset('js/app.js')}}></script>
-        <!-- Styles -->
-        <link rel="stylesheet" href="<?php echo asset('css/app.css')?>" type="text/css"> 
-    </head>
-    <body>
-    @include ('partials/nav')
-    <canvas class="particles"></canvas>
+@extends('pages/layout')
+    @section('content')
     <div class="section-one">
+    <canvas class="particles"></canvas>
         <div class="left">
             <h1>Hi</h1>
             <p>I'm a web developer in Edmonton, Alberta</p>
@@ -35,5 +18,14 @@
         });
         };
     </script>
-    </body>
-</html>
+    <div class="section-two">
+        <h1 class="title">Work I Do</h1>
+        <ul>
+        <li>React</li>
+        <li>Vue</li>
+        <li>PHP</li>
+        <li>Node.js</li>
+        <li>API Development</li>
+        </ul>
+    </div>
+@endsection
