@@ -19859,3 +19859,32 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+.section-one {
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-one .left {
+  width: 70%;
+}
+
+.section-one .right {
+  width: 30%;
+}
+
+.section-one .right img {
+  height: 200px;
+  width: 200px;
+}
+
+#particles-js {
+  height: 600px;
+  width: 600px;
+  background: #f00;
+}
+

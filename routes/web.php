@@ -12,6 +12,10 @@
 |
 */
 
+// Public page routes
+Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/programs', 'PagesController@programs')->name('programs');
+
 
 // Posts routes
 Route::get('/', 'PostsController@index')->name('home');
@@ -30,11 +34,3 @@ Route::post('/login', 'SessionsController@store');
 Route::get('/logout', 'SessionsController@destroy');
 
 
-// Public page routes
-Route::get('/about', function(){
-  return view('pages.about');
-});
-
-Route::get('/programs', function(){
-  return view('pages.programs.programs');
-});

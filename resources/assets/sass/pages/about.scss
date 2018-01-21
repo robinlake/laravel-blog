@@ -1,0 +1,21 @@
+.section-one {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  .left {
+    width: 70%;
+  }
+  .right {
+    width: 30%;
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+}
+
+#particles-js {
+  height: 600px;
+  width: 600px;
+  background: #f00;
+}

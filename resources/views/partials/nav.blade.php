@@ -29,7 +29,7 @@
                 <img src="{{asset('images/github-clear.png')}}" alt="">
             </a>
             <a href="{{ route('posts') }}"class="navbar-item is-tab is-hidden-mobile n-l-10">Posts</a>
-            <a href="{{ route('/programs') }}"class="navbar-item is-tab is-hidden-mobile">Programs</a>
+            <a href="{{ route('programs') }}"class="navbar-item is-tab is-hidden-mobile">Programs</a>
             <a href="{{ route('about') }}"class="navbar-item is-tab is-hidden-mobile">About</a>
         </div>
         <div class="navbar-end" style="overflow: visible;">

@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -6,6 +5,9 @@
  */
 
 require('./bootstrap');
+// require('./particles/app');
+// require('./particles/particles');
+//require('particlesjs');
 
 window.Vue = require('vue');
 
