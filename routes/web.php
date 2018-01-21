@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,9 +12,29 @@
 |
 */
 
-Route::get('/', 'PostsController@index');
+
+// Posts routes
+Route::get('/', 'PostsController@index')->name('home');
+Route::get('/posts', 'PostsController@index')->name('posts');
 Route::get('/posts/create', 'PostsController@create');
 Route::post('/posts', 'PostsController@store');
 Route::get('/posts/{post}', 'PostsController@show');
 
 Route ::post('/posts/{post}/comments', 'CommentsController@store');
+
+// User Routes
+Route::get('/register', 'RegistrationController@create');
+Route::post('/register', 'RegistrationController@store');
+Route::get('/login', 'SessionsController@create');
+Route::post('/login', 'SessionsController@store');
+Route::get('/logout', 'SessionsController@destroy');
+
+
+// Public page routes
+Route::get('/about', function(){
+  return view('pages.about');
+});
+
+Route::get('/programs', function(){
+  return view('pages.programs.programs');
+});
