@@ -1,6 +1,6 @@
-<div class="blog-post">
+<div class="blog-post post">
       <a href="/posts/{{ $post->id }}">
-        <h2 class="blog-post-title">{{ $post->title }}</h2>  
+        <h2 class="title">{{ $post->title }}</h2>  
       </a>
       <p class="blog-post-meta">
         {{ $post->user->name }} on

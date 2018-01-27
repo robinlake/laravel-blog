@@ -8,5 +8,11 @@
 @import './node_modules/bulma/bulma.sass';
 //pages
 @import 'pages/about';
+@import 'pages/programs';
+@import 'pages/home';
 // Partials
 @import 'partials/footer';
+// Posts
+@import 'posts/post';
+// Layouts
+@import 'layout/blog';

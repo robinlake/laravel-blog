@@ -5,7 +5,7 @@
 
 
 
-  <div class="col-sm-8 blog-main">
+  <div class="">
 
   @foreach ($posts as $post)
     @include('posts.post')

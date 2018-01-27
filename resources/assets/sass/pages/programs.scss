@@ -1,0 +1,29 @@
+.program-container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 30px;
+  grid-auto-rows: minmax(500px, auto);
+  justify-content: center;
+}
+
+.fcc {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 20px;
+  background: whitesmoke;
+  grid-auto-rows: 200px;
+  grid-auto-columns: minmax(100px, 1fr);
+  align-content: center;
+}
+
+.fcc-container {
+  >* {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+}

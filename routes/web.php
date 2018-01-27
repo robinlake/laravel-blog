@@ -13,12 +13,12 @@
 */
 
 // Public page routes
+Route::get('/', 'PagesController@home')->name('home');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/programs', 'PagesController@programs')->name('programs');
 
 
 // Posts routes
-Route::get('/', 'PostsController@index')->name('home');
 Route::get('/posts', 'PostsController@index')->name('posts');
 Route::get('/posts/create', 'PostsController@create');
 Route::post('/posts', 'PostsController@store');

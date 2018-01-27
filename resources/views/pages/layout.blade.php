@@ -15,12 +15,15 @@
         <script src={{asset('js/app.js')}}></script>
     <!-- Custom styles for this template -->
     <link href="/css/app.css" rel="stylesheet">
+    <script src="{{ asset('js/app.js') }}"></script>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
   </head>
 
   <body>
-
+  <div id="app">
     @include('partials.nav')
-        @yield('content')    
-    @include('partials.footer')
+      @yield('content')    
+    @include('partials.footer')  
+  </div>
   </body>
 </html>

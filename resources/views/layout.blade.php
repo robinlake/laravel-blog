@@ -17,13 +17,16 @@
     <!-- Custom styles for this template -->
     <link href="/css/blog.css" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
+
+    <script src="{{ asset('js/app.js') }}"></script>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
   </head>
 
   <body>
 
     @include('partials.nav')
-    <div class="container">
-        <div class="row">
+    <div class="container" id="app">
+        <div class="blog-container">
         @yield('content')    
         @include ('partials.sidebar')
         </div>

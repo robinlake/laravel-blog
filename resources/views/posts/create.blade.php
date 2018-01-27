@@ -1,4 +1,5 @@
-@extends ('layout') @section ('content')
+@extends ('layout') 
+@section ('content')
 <div class="col-sm-8 blog-main">
     <h1>Create A Post</h1>
     
@@ -12,8 +13,18 @@
         </div>
 
         <div class="form-group">
-            <label for="exampleInputPassword1">Body</label>
+            <label for="description">Description</label>
+            <input name="description" id="description" cols="30" rows="10" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label for="body">Body</label>
             <textarea name="body" id="body" cols="30" rows="10" class="form-control" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="image path">Image Path</label>
+            <input name="image_path" id="image_path" cols="30" rows="10" class="form-control" required>
         </div>
 
         <div class="form-group">
