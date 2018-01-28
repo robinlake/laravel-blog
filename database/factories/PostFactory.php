@@ -10,6 +10,8 @@ $factory->define(App\Post::class, function (Faker $faker) {
             return factory(App\User::class)->create()->id;
         },
         'title' => $faker->sentence,
-        'body' => $faker->paragraph
+        'body' => $faker->paragraph,
+        'description' => $faker->paragraph,
+        'image_path' => '/images/March26.png'
     ];
 });

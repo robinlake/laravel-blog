@@ -35,6 +35,9 @@
   padding: 30px;
   grid-template-columns: 33% 33% 33%;
   grid-gap: 30px;
-  grid-auto-rows: minmax(200px, auto);
+  grid-auto-rows: minmax(300px, auto);
   justify-content: center;
+  .mask {
+    height: 100px;
+  }
 }
