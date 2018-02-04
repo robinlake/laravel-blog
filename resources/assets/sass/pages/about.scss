@@ -4,10 +4,14 @@
   display: flex;
   justify-content: center;
   .left {
-    width: 70%;
+    width: 100%;
     position: absolute;
     z-index: 2;
     left: 0;
+    p {
+      width: 100%;
+      text-align: center;
+    }
   }
   .right {
     width: 30%;

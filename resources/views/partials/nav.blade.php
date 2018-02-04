@@ -33,10 +33,10 @@
             <a href="{{ route('about') }}"class="navbar-item is-tab is-hidden-mobile">About</a>
         </div>
         <div class="navbar-end" style="overflow: visible;">
-        <a class="navbar-item is-tab is-hidden-mobile">Share</a>
+        <!-- <a class="navbar-item is-tab is-hidden-mobile">Share</a>
         @if (Auth::check())
           <a class="navbar-item is-tab is-hidden-mobile" href="#">{{Auth::user()->name}}</a>
-        @endif
+        @endif -->
         </div>
     </div>
 </nav>

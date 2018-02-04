@@ -6,9 +6,9 @@
             <h1>Hi</h1>
             <p>I'm a web developer in Edmonton, Alberta</p>
         </div>    
-        <div class="right">
+        <!-- <div class="right">
             <img src="{{asset('images/March26.png')}}" alt="">
-        </div>
+        </div> -->
     </div>
     <script src="https://npmcdn.com/particlesjs@2.1.0/dist/particles.min.js"></script>
     <script src={{asset('js/particles.js')}}>
@@ -18,7 +18,7 @@
         });
         };
     </script>
-    <div class="section-two">
+    <!-- <div class="section-two">
         <h1 class="title">Work I Do</h1>
         <ul>
         <li>React</li>
@@ -27,5 +27,5 @@
         <li>Node.js</li>
         <li>API Development</li>
         </ul>
-    </div>
+    </div> -->
 @endsection

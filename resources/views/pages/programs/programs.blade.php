@@ -3,13 +3,13 @@
 <h1>Here are some examples of my work</h1>
 <h1>Commercial Sites</h1>
 <div class="program-container">
-  <program>
+  <!-- <program>
     <a slot="link" target="_blank" href="https://robinlake.github.io/Tic-Tac-Toe/">
       <h1 slot="title">Some Title</h1>
       <p slot="description">Some Description</p>
       <img slot="image" src="{{ URL::to('/') }}/images/programImages/sites/integrity-divorce.jpg" alt="">
     </a>
-  </program>
+  </program> -->
   <program>
     <a slot="link" target="_blank" href="http://www.integritydivorce.ca/">
       <h1 slot="title">Integrity Divorce</h1>
@@ -23,7 +23,7 @@
     <a slot="link" target="_blank" href="https://robinlake.github.io/Tic-Tac-Toe/">
       <h1 slot="title">Manitoba Incorporate</h1>
       <p slot="description">Custom Wordpress e-commerce theme built using SCSS and Woocommerce</p>
-      <img slot="image" src="{{ URL::to('/') }}/images/programImages/sites/integrity-divorce.jpg" alt="">
+      <img slot="image" src="{{ URL::to('/') }}/images/programImages/sites/manitoba-incorporate.jpg" alt="">
     </a>
   </program>
 </div>
@@ -50,7 +50,7 @@
         </a>
       </program>
       <program>
-        <a slot="link" target="_blank" href="https://codepen.io/Robin1515/full/dNJZzK">
+        <a slot="link" target="_blank" href="https://local-weather-fcc.herokuapp.com/">
           <h1 slot="title">Local Weather</h1>
           <p slot="description">Displays a 5 day forecast in your
             current city

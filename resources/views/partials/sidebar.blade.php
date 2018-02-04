@@ -1,10 +1,9 @@
 <aside class="">
     <div class="">
-      <h4>More Posts</h4>
+      <h1>More Posts</h1>
     </div>
     <div class="">
-      <h4>Archives</h4>
-      <ol class="">
+      <ul class="">
 
         @foreach ($archives as $stats)
           <li>
@@ -13,15 +12,9 @@
             </a>
           </li>
         @endforeach
-      </ol>
+      </ul>
     </div>
     <div class="">
-      <h4>Elsewhere</h4>
-      <ol class="">
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Facebook</a></li>
-      </ol>
     </div>
   </aside>
 

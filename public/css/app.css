@@ -11532,10 +11532,15 @@ h1 {
 }
 
 .section-one .left {
-  width: 70%;
+  width: 100%;
   position: absolute;
   z-index: 2;
   left: 0;
+}
+
+.section-one .left p {
+  width: 100%;
+  text-align: center;
 }
 
 .section-one .right {

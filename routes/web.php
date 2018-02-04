@@ -22,9 +22,10 @@ Route::get('/programs', 'PagesController@programs')->name('programs');
 Route::get('/posts', 'PostsController@index')->name('posts');
 Route::get('/posts/create', 'PostsController@create');
 Route::post('/posts', 'PostsController@store');
-Route::get('/posts/{post}', 'PostsController@show');
+Route::get('/posts/{post}',
+['as' => 'frangle', 'uses' => 'PostsController@show']);
 
-Route ::post('/posts/{post}/comments', 'CommentsController@store');
+Route ::post('/posts/{post}/comments','CommentsController@store');
 
 // User Routes
 Route::get('/register', 'RegistrationController@create');
