@@ -5,9 +5,9 @@
 // Bulma 
 @import './node_modules/bulma/bulma.sass';
 // Variables
-@import "variables";
+@import "layout/partials/variables";
 // Typography
-@import "typography";
+@import "layout/partials/typography";
 //pages
 @import 'pages/about';
 @import 'pages/programs';
@@ -15,7 +15,10 @@
 // Partials
 @import 'partials/footer';
 @import 'partials/header';
+@import 'partials/sidebar';
+@import 'partials/social';
 // Posts
 @import 'posts/post';
+@import 'posts/posts';
 // Layouts
 @import 'layout/blog';

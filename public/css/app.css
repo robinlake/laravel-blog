@@ -11516,6 +11516,10 @@ h1 {
   text-align: center;
 }
 
+.title2 {
+  padding: 20px 0 50px 0;
+}
+
 .section-one {
   position: relative;
   min-height: 600px;
@@ -11566,8 +11570,8 @@ h1 {
 
 .fcc {
   display: grid;
-  grid-template-columns: 45% 45%;
-  grid-gap: 20px;
+  grid-template-columns: 41% 41%;
+  grid-gap: 50px;
   grid-auto-rows: 400px;
   grid-auto-columns: minmax(200px, 300px);
   -webkit-box-pack: center;
@@ -11585,6 +11589,20 @@ h1 {
 
 .fcc-container h4 {
   font-size: 1.5em;
+}
+
+.fcc-container p {
+  text-align: center;
+}
+
+.program-container a,
+.fcc-container a {
+  color: black;
+}
+
+.program-container a p,
+.fcc-container a p {
+  text-align: center;
 }
 
 .home-grid {
@@ -11641,8 +11659,93 @@ h1 {
   height: 100px;
 }
 
+.more a {
+  text-decoration: none;
+}
+
+.more h2 {
+  text-align: center;
+}
+
 .navbar-item {
   text-decoration: none !important;
+}
+
+.social {
+  width: 10%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px 0;
+}
+
+.social > * {
+  display: block;
+}
+
+.post .header {
+  height: 420px;
+  width: 100%;
+  background: #00aeff;
+  padding: 100px 40px 100px 40px;
+}
+
+.post .header h1 {
+  color: white;
+}
+
+.post .header p {
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+.post-content {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 70% 20%;
+  justify-items: center;
+  grid-column-gap: 5%;
+  padding: 20px 0;
+}
+
+.post-content .left > p::first-letter {
+  font-size: 3em;
+}
+
+.post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.comment-box {
+  width: 75%;
+}
+
+.comment-box .button {
+  margin: 10px 0;
+}
+
+.posts {
+  padding: 50px 0;
+}
+
+.posts-content {
+  display: grid;
+  grid-template-columns: 65% 20%;
+  justify-items: center;
+  grid-column-gap: 5%;
+  padding: 20px 5%;
+}
+
+.posts-content .left > p::first-letter {
+  font-size: 3em;
 }
 
 .blog-container {

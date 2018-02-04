@@ -1,11 +1,10 @@
-<aside class="col-sm-3 ml-sm-auto blog-sidebar">
-    <div class="sidebar-module sidebar-module-inset">
-      <h4>About</h4>
-      <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+<aside class="">
+    <div class="">
+      <h4>More Posts</h4>
     </div>
-    <div class="sidebar-module">
+    <div class="">
       <h4>Archives</h4>
-      <ol class="list-unstyled">
+      <ol class="">
 
         @foreach ($archives as $stats)
           <li>
@@ -16,9 +15,9 @@
         @endforeach
       </ol>
     </div>
-    <div class="sidebar-module">
+    <div class="">
       <h4>Elsewhere</h4>
-      <ol class="list-unstyled">
+      <ol class="">
         <li><a href="#">GitHub</a></li>
         <li><a href="#">Twitter</a></li>
         <li><a href="#">Facebook</a></li>

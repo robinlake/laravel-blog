@@ -16,6 +16,9 @@
   overflow: hidden;
   &:hover {
     transform: translate3d(10px, 10px, 10px);
+    .image {
+      transform: scale(1.1, 1.1);
+    }
   }
 }
 h1 {

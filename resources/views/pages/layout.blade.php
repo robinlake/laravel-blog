@@ -10,12 +10,13 @@
     <title>Blog Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"> -->
         <!-- Particles -->
         <script src={{asset('js/app.js')}}></script>
     <!-- Custom styles for this template -->
     <link href="/css/app.css" rel="stylesheet">
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="/dist/vue-social-sharing.min.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
   </head>
 

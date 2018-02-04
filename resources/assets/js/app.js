@@ -11,6 +11,9 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+
+var SocialSharing = require('vue-social-sharing');
+Vue.use(SocialSharing);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

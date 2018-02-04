@@ -25,8 +25,8 @@
 <nav class="navbar has-shadow">
     <div class="container">
         <div class="navbar-start">
-            <a href="" class="navbar-item">
-                <img src="{{asset('images/github-clear.png')}}" alt="">
+            <a href="{{ route('home') }}" class="navbar-item">
+                <img src="{{asset('images/March26.png')}}" alt="">
             </a>
             <a href="{{ route('posts') }}"class="navbar-item is-tab is-hidden-mobile n-l-10">Posts</a>
             <a href="{{ route('programs') }}"class="navbar-item is-tab is-hidden-mobile">Programs</a>

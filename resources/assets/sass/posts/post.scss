@@ -1,0 +1,39 @@
+.post .header {
+  height: 420px;
+  width: 100%;
+  background: rgb(0, 174, 255);
+  padding: 100px 40px 100px 40px;
+  h1 {
+    color: white;
+  }
+  p {
+    text-align: center;
+    padding: 25px;
+    color: white;
+  }
+}
+
+.post-content {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 70% 20%;
+  justify-items: center;
+  grid-column-gap: 5%;
+  padding: 20px 0;
+  .left>p::first-letter {
+    font-size: 3em;
+  }
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.comment-box {
+  width: 75%;
+  .button {
+    margin: 10px 0;
+  }
+}

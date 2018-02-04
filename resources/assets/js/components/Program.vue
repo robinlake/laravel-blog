@@ -1,10 +1,12 @@
 <template>
     <div class="card">
-      <slot name="image" class="image"></slot>
-      <div class="mask">
-        <slot name="title" class="title"></slot>
-        <slot name="description" class="description"></slot>
-      </div>
+      <slot name="link">
+        <slot name="image" class="image"></slot>
+        <div class="mask">
+          <slot name="title" class="title"></slot>
+          <slot name="description" class="description"></slot>
+        </div>
+      </slot>
     </div>
 </template>
 

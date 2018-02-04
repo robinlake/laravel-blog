@@ -3,47 +3,65 @@
 <div class="">
 
 <!-- <img src="{{ URL::to('/') }}/images/March26.png" alt=""> -->
-
+<h1>Featured Posts</h1>
 
 <div class="home-grid">
-  <post class="one">
+<a  class="one" href="/posts/<?php echo $posts[0]->id ?>">
+  <post>
     <h1 slot="title"><?php echo $posts[0]->title ?></h1>
     <p slot="description"><?php echo $posts[0]->description ?></p>
     <img slot="image" src="{{ URL::to('/') }}<?php echo $posts[0]->image_path ?>" alt="">
   </post>
-  <post class="two">
+</a>
+<a class="two" href="/posts/<?php echo $posts[0]->id ?>">
+  <post >
   <h2 slot="title"><?php echo $posts[0]->title ?></h2>
   <p slot="description"><?php echo $posts[0]->description ?></p>
   <img slot="image" src="{{ URL::to('/') }}<?php echo $posts[0]->image_path ?>" alt="">
   </post>
-  <post class="three">
+</a>
+<a class="three" href="/posts/<?php echo $posts[0]->id ?>">
+  <post >
   <h2 slot="title"><?php echo $posts[0]->title ?></h2>
   <p slot="description"><?php echo $posts[0]->description ?></p>
   <img slot="image" src="{{ URL::to('/') }}<?php echo $posts[0]->image_path ?>" alt="">
   </post>
-  <post class="four">
+</a>
+<a class="four" href="/posts/<?php echo $posts[0]->id ?>">
+  <post >
   <h2 slot="title"><?php echo $posts[0]->title ?></h2>
   <p slot="description"><?php echo $posts[0]->description ?></p>
   <img slot="image" src="{{ URL::to('/') }}<?php echo $posts[0]->image_path ?>" alt="">
   </post>
-  <post class="five">
+</a>
+<a class="five" href="/posts/<?php echo $posts[0]->id ?>">
+  <post >
   <h2 slot="title"><?php echo $posts[0]->title ?></h2>
   <p slot="description"><?php echo $posts[0]->description ?></p>
   <img slot="image" src="{{ URL::to('/') }}<?php echo $posts[0]->image_path ?>" alt="">
   </post>
+</a>
 </div> 
 
-
+<h1>More Posts</h1>
 <div class="home-grid-2">
-  <post></post>
-  <post></post>
-  <post></post>
-  <post></post>
-  <post></post>
-</div> 
 @foreach ($posts as $post)
-  @include('posts.post')
+<a href="/posts/{{ $post->id }}">
+  <post class="">
+    <h2 slot="title"><?php echo $post->title ?></h2>
+    <p slot="description"><?php echo $post->description ?></p>
+    <img slot="image" src="{{ URL::to('/') }}<?php echo $post->image_path ?>" alt="">
+  </post>
+</a>
 @endforeach
+</div>
+
+<div class="more">
+  <h1>Want More Posts?</h1>
+  <a href="{{ route('posts') }}"><h2>See All Posts</h2></a>
+</div>
+
+
 
 </div><!-- /.blog-main -->
 @endsection
