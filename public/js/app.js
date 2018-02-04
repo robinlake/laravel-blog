@@ -44050,12 +44050,7 @@ var render = function() {
     [
       _vm._t("image"),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "mask" },
-        [_vm._t("title"), _vm._v(" "), _vm._t("description")],
-        2
-      )
+      _c("div", { staticClass: "mask" }, [_vm._t("title")], 2)
     ],
     2
   )

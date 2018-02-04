@@ -3,13 +3,12 @@
   padding: 30px;
   margin: 30px;
   grid-template-columns: 50% 25% 25%;
-  grid-template-rows: 100px 100px 100px 100px 100px;
-  grid-gap: 30px;
-  grid-auto-rows: minmax(500px, auto);
+  grid-template-rows: 120px 120px 120px 120px;
+  grid-gap: 30px; // grid-auto-rows: minmax(500px, auto);
   justify-content: center;
   .one {
     grid-column: 1;
-    grid-row: 1/6;
+    grid-row: 1/5;
   }
   .two {
     grid-column: 2;
@@ -25,7 +24,7 @@
   }
   .five {
     grid-column: 3;
-    grid-row: 4/6;
+    grid-row: 3/6;
   }
 }
 

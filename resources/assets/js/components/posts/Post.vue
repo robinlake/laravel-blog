@@ -3,7 +3,7 @@
       <slot name="image" class="image"></slot>
       <div class="mask">
         <slot name="title"></slot>
-        <slot name="description" class="description"></slot>
+        <!-- <slot name="description" class="description"></slot> -->
       </div>
     </div>
 </template>

@@ -11610,9 +11610,8 @@ h1 {
   padding: 30px;
   margin: 30px;
   grid-template-columns: 50% 25% 25%;
-  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-rows: 120px 120px 120px 120px;
   grid-gap: 30px;
-  grid-auto-rows: minmax(500px, auto);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -11620,7 +11619,7 @@ h1 {
 
 .home-grid .one {
   grid-column: 1;
-  grid-row: 1/6;
+  grid-row: 1/5;
 }
 
 .home-grid .two {
@@ -11640,7 +11639,7 @@ h1 {
 
 .home-grid .five {
   grid-column: 3;
-  grid-row: 4/6;
+  grid-row: 3/6;
 }
 
 .home-grid-2 {
