@@ -4,7 +4,7 @@
 
 <!-- <img src="{{ URL::to('/') }}/images/March26.png" alt=""> -->
 <h1>Featured Posts</h1>
-
+@if (gettype($posts[0]) == 'object')
 <div class="home-grid">
 <a  class="one" href="/posts/<?php echo $posts[0]->id ?>">
   <post>
@@ -42,6 +42,9 @@
   </post>
 </a>
 </div> 
+@else
+<h1>Posts Coming Soon</h1>
+@endif
 
 <h1>More Posts</h1>
 <div class="home-grid-2">
