@@ -11728,6 +11728,16 @@ h1 {
       flex-wrap: wrap;
 }
 
+.post h2 .title {
+  width: 100%;
+  text-align: center;
+}
+
+.post .blog-post-meta {
+  width: 100%;
+  text-align: center;
+}
+
 .comment-box {
   width: 75%;
 }

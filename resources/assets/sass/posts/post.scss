@@ -29,6 +29,14 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  h2 .title {
+    width: 100%;
+    text-align: center;
+  }
+  .blog-post-meta {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .comment-box {
