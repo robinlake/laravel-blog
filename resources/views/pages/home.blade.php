@@ -4,7 +4,7 @@
 
 <!-- <img src="{{ URL::to('/') }}/images/March26.png" alt=""> -->
 <h1>Featured Posts</h1>
-@if (gettype($posts[0]) == 'object')
+@if (!empty($posts))
 <div class="home-grid">
 <a  class="one" href="/posts/<?php echo $posts[0]->id ?>">
   <post>
