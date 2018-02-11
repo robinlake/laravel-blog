@@ -4,6 +4,8 @@
 //@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 // Bulma 
 @import './node_modules/bulma/bulma.sass';
+// Breakpoints
+@import './mixins/breakpoints';
 // Variables
 @import "layout/partials/variables";
 // Typography

@@ -43974,7 +43974,7 @@ exports = module.exports = __webpack_require__(11)(false);
 
 
 // module
-exports.push([module.i, "\n.card[data-v-65b4b0d3] {\n  -webkit-box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);\n          box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);\n  position: relative;\n  -webkit-transition: all 0.6s ease;\n  transition: all 0.6s ease;\n  overflow: hidden;\n}\n.card[data-v-65b4b0d3]:hover {\n    -webkit-transform: translate3d(10px, 10px, 10px);\n            transform: translate3d(10px, 10px, 10px);\n}\n.card:hover .image[data-v-65b4b0d3] {\n      -webkit-transform: scale(1.1, 1.1);\n              transform: scale(1.1, 1.1);\n}\nh1[data-v-65b4b0d3] {\n  font-size: 2.5em;\n}\nh2[data-v-65b4b0d3] {\n  font-size: 1.5em;\n}\n.mask[data-v-65b4b0d3] {\n  position: absolute;\n  bottom: 0px;\n  height: 120px;\n  width: 100%;\n  background: rgba(10, 10, 10, 0.3);\n  padding: 20px;\n}\n.image[data-v-65b4b0d3] {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n", ""]);
+exports.push([module.i, "\n.card[data-v-65b4b0d3] {\n  -webkit-box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);\n          box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);\n  position: relative;\n  -webkit-transition: all 0.6s ease;\n  transition: all 0.6s ease;\n  overflow: hidden;\n  height: 100%;\n  width: 100%;\n}\n.card[data-v-65b4b0d3]:hover {\n    -webkit-transform: translate3d(10px, 10px, 10px);\n            transform: translate3d(10px, 10px, 10px);\n}\n.card:hover .image[data-v-65b4b0d3] {\n      -webkit-transform: scale(1.1, 1.1);\n              transform: scale(1.1, 1.1);\n}\nh1[data-v-65b4b0d3] {\n  font-size: 2.5em;\n}\nh2[data-v-65b4b0d3] {\n  font-size: 1.5em;\n}\n.mask[data-v-65b4b0d3] {\n  position: absolute;\n  bottom: 0px;\n  height: 120px;\n  width: 100%;\n  background: rgba(10, 10, 10, 0.3);\n  padding: 20px;\n}\n.image[data-v-65b4b0d3] {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n", ""]);
 
 // exports
 
@@ -43985,6 +43985,8 @@ exports.push([module.i, "\n.card[data-v-65b4b0d3] {\n  -webkit-box-shadow: 0 1re
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
 //
 //
 //

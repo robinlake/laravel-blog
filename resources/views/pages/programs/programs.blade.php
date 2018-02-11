@@ -20,7 +20,7 @@
     </a>
   </program>
   <program>
-    <a slot="link" target="_blank" href="https://robinlake.github.io/Tic-Tac-Toe/">
+    <a slot="link" target="_blank" href="https://www.manitobaincorporate.com">
       <h1 slot="title">Manitoba Incorporate</h1>
       <p slot="description">Custom Wordpress e-commerce theme built using SCSS and Woocommerce</p>
       <img slot="image" src="{{ URL::to('/') }}/images/programImages/sites/manitoba-incorporate.jpg" alt="">

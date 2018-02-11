@@ -1,0 +1,51 @@
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($point) {
+  @if $point==XXL {
+    @media (min-width: 87.5em) {
+      @content ;
+    }
+  }
+  @if $point==XL {
+    @media (min-width: 75em) {
+      @content ;
+    }
+  }
+  @if $point==L {
+    @media (min-width: 62em) {
+      @content ;
+    }
+  }
+  @else if $point==M {
+    @media (min-width: 48em) {
+      @content ;
+    }
+  }
+  @else if $point==S {
+    @media (min-width: 30em) {
+      @content ;
+    }
+  }
+  @else if $point==XS {
+    @media (min-width: 20em) {
+      @content ;
+    }
+  }
+  @else if $point==XXS {
+    @media (min-width: 0em) {
+      @content ;
+    }
+  }
+  @else if $point==LS-S {
+    @media (max-width: 48em) and (orientation: landscape) {
+      @content ;
+    }
+  }
+  @else if $point==LS-L {
+    @media (orientation: landscape) and (max-height: 52em) {
+      @content ;
+    }
+  }
+}

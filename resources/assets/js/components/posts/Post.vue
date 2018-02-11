@@ -14,6 +14,8 @@
   position: relative;
   transition: all 0.6s ease;
   overflow: hidden;
+  height: 100%;
+  width: 100%;
   &:hover {
     transform: translate3d(10px, 10px, 10px);
     .image {
